@@ -1,0 +1,45 @@
+body,
+* {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	box-sizing: border-box;
+}
+
+#register-form {
+	border: 1px solid black;
+	border-radius: 10px;
+	padding: 2rem 0;
+	width: 400px;
+	margin: 20px auto;
+}
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+.regis-title {
+	text-align: center;
+	margin: 0;
+	margin-bottom: 1.5rem;
+}
+.regis-form {
+	display: flex;
+	flex-direction: column;
+}
+.regis-input {
+	margin-bottom: 10px;
+}
+
+.regis-input input {
+	width: 100%;
+	padding: 6px 5px;
+}
+
+.regis-btn {
+	width: 100%;
+	text-transform: uppercase;
+	font-weight: 700;
+	padding: 10px 7px;
+}
+
+.regis-btn:hover {
+	cursor: pointer;
+}
